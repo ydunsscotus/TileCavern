@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform spawnPoint;
+
     Rigidbody2D rb;
     Vector2 moveInput;
     Animator animator;
@@ -124,8 +125,10 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             animator.SetTrigger("Dying");
             rb.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
 
     }
+
 
 }

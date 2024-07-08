@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5003776619956887522}
   m_Layer: 8
   m_Name: Roger (player)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1425971957
-  m_SortingLayer: 7
+  m_SortingLayer: 9
   m_SortingOrder: 4
   m_Sprite: {fileID: -1898068142, guid: e6e8df601187d18478795f3a249f7d14, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

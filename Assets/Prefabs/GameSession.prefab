@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLive: 3
+  Score: 0
   livesText: {fileID: 3483600003598173754}
   scoreText: {fileID: 3483600004879001726}
 --- !u!1001 &3483600004984008264
@@ -55,6 +56,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7798189177616840069}
     m_Modifications:
+    - target: {fileID: 1208822350, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
+      propertyPath: m_Name
+      value: Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208822351, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 623
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809888295, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
+      propertyPath: m_Name
+      value: CoinsCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809888296, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 649
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809888297, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
+      propertyPath: m_text
+      value: "Coins\t :"
+      objectReference: {fileID: 0}
     - target: {fileID: 6983762633208017794, guid: a099e686408628d4dbd4379a2c7b41c2, type: 3}
       propertyPath: m_Pivot.x
       value: 0

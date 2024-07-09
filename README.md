@@ -6,21 +6,28 @@
 **TileCavern** is a side-scrolling platformer game where players find themselves trapped inside a cavern. The objective is to navigate through the cave, collecting coins to pay the merchant for the way out. Players must battle against cave spiders while searching for the coins.
 ## Gameplay
 
-TBA
+The game consists of 3 levels, and players can start from any level they choose. During the game, players must search for and collect coins.
 
 ## Controls
 
-TBA
+- **W**: Climb Ladder<br>
+- **S**: Descend Ladder
+- **A**: Move Left
+- **D**: Move Right
+- **Space** : Jump
+- **LMB** : Fire Projectile
 
 ## Features
 
-TBA
+- Parallax background
+- Cinemachine Cam depends on player State
+
 ## Installation
 
 1. Clone the repository:
     ```sh
-    TBA
+    (https://github.com/ydunsscotus/TileCavern)
     ```
     if you want to play the game, you can download the latest version of the game directly from the following link:
-  TBA
+(https://1drv.ms/u/s!AoQfHXVNUJTksNoZLfX1hAZlE7glmg?e=2pV0iV)
 
